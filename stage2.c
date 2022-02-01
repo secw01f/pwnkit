@@ -4,7 +4,7 @@
 
 void gconv(void) {}
 
-void gconv_init(void *step) {
+void gconv_init(void) {
     setuid(0);
     setgid(0);
     seteuid(0);
